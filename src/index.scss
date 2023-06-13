@@ -5,7 +5,7 @@
 
 // IMPORT
 @import "./Components/Nav/Nav.scss";
-
+@import "./Components/Card/Card.scss";
 
 *{
   padding: 0;
@@ -19,8 +19,9 @@ body{
 }
 
 .Home, .FAQ, .About{
+  width: 80%;
+  margin: auto;
   height: 100%;
-  margin: 1em;
   border-radius: 1em;
 }
 
