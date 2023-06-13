@@ -3,6 +3,10 @@
 @tailwind utilities;
 
 
+// IMPORT
+@import "./Components/Nav/Nav.scss";
+
+
 *{
   padding: 0;
   margin: 0;
@@ -14,4 +18,7 @@ body{
   font-family: monospace;
 }
 
+.Home, .FAQ, .About{
+  height: 100%;
+}
 
